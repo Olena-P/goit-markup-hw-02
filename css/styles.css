@@ -1,0 +1,103 @@
+:root{
+    --primary-texst-color: rgba(117, 117, 117, 1);
+    --title-texst-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+}
+
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-texst-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    /*font-size: 14;
+    line-height: 24;*/
+}
+.site-nav .link{
+    color: var(--title-texst-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    }
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.logo{
+    color: var(--title-texst-color);
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px; 
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-accent{
+     color: var(--accent-color);
+}
+
+
+/* Hero */
+.hero-title{
+    /* Геометрия */
+
+
+    /* Оформление текста и цвета */
+    color: var(--title-texst-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+
+    /* динамика */
+
+}
+
+/* Section */
+.section-title{
+    color: var(--title-texst-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42,19px;
+}
+
+.future-list .section-title{
+    color: var(--title-texst-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16,41px;
+}
+
+
+
+
+/* */
+
+
+
+
+/* Button*/
+.button{
+    color: var(--title-texst-color);
+    background-color: var(--primary-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.button.primary{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary{
+    color: var(--accent-color);
+    background-color: var(--primary-white-color: #FFFFFF;);
+}
+
