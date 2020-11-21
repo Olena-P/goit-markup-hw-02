@@ -11,6 +11,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+main{
+    background-color: var(--primary-white-color);
+}
+
 li {
     list-style-type: none; /* Убираем маркеры */
 }
@@ -60,7 +64,8 @@ a {
     line-height: 1.62;
 }
 
-.button.primary{
+.button.primary:hover,
+.button.primary:focus{
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
@@ -145,20 +150,24 @@ a {
 
 .footer-list-link:hover,
 .footer-list-link:focus{
-   color: var(--accent-color);
+    color: var(--accent-color);
 }
+
 .footer-list-link.address:hover,
 .footer-list-link.address:focus{
-   color: var(--accent-color);
+    color: var(--accent-color);
 }
 .footer{
-   background: #2F303A;
+    background: #2F303A;
 }
 .footer-list-link{
-   font-style: 400;
-   font-size: 14px;
-   line-height: 1.71;
-   color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
 
 }
 .footer-list-link.address{
