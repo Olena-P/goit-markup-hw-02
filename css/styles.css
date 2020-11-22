@@ -36,6 +36,14 @@ a {
     color: var(--accent-color);
 }
 
+.site-nav-link.mail{
+    color: #757575;
+}
+
+.site-nav-link.number{
+    color: #757575;
+}
+
 .logo{
     color: var(--title-texst-color);
     width: 145px;
