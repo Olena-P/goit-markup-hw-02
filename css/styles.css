@@ -39,9 +39,17 @@ a {
 .site-nav-link.mail{
     color: #757575;
 }
-
+.site-nav-link.mail:hover,
+.site-nav-link.mail:focus{
+    color: var(--accent-color);
+}
 .site-nav-link.number{
     color: #757575;
+    
+}
+.site-nav-link.number:hover,
+.site-nav-link.number:focus{
+    color: var(--accent-color);
 }
 
 .logo{
